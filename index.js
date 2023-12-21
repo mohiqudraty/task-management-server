@@ -11,8 +11,6 @@ app.use(express.json());
 app.use(cors());
 
 
-
-// const uri = "mongodb+srv://task-manager:kh3BcEKLtiDUKa58@cluster0.yu66mpe.mongodb.net/?retryWrites=true&w=majority";
 const uri = process.env.MONGO_DB_URI
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
